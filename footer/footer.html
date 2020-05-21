@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+    <style>
+        .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        padding: 10px;
+        align-items: center;
+        }
+        @media screen and (min-width: 800px) {
+        .column {
+            flex: 1
+        }
+        }
+        .imgResponsive{
+            width: 100%!important;
+            max-width: 150px!important;
+            height: auto!important;
+        }        
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <img class="imgResponsive" src="https://raw.githubusercontent.com/oeg-upm/websiteFooterLogos/master/images/oeg.jpg" alt="">
+        </div>
+        <div class="column">
+            <img class="imgResponsive" src="https://raw.githubusercontent.com/oeg-upm/websiteFooterLogos/master/images/fiLogo.png" alt="">
+        </div>
+        <div class="column">
+            <img class="imgResponsive" src="https://raw.githubusercontent.com/oeg-upm/websiteFooterLogos/master/images/upm.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
